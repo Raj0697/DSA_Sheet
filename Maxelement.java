@@ -79,6 +79,7 @@ public class Maxelement {
             count1 = (end - minindex)+1;
             count2 = (maxindex - start)+1;
         } 
-        return count1+count2;
+	int ans = count1+count2;
+        return ans;
     }
 }
