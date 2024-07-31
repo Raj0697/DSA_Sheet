@@ -1,4 +1,4 @@
-int n = rating.Length, count = 0;
+        int n = rating.Length, count = 0;
         for(int i = 1; i < n - 1; i++)
         {
             int curr = rating[i], leftSmaller = 0, leftBigger = 0, rightSmaller = 0, rightBigger = 0;
