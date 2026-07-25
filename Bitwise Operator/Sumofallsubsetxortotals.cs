@@ -6,7 +6,7 @@ public class Solution {
         {
             or |= num;
         }
-
+        // logic
         return or << (nums.Length - 1);
     }
 }
